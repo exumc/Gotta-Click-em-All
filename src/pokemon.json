@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "name": "Pikachu",
+    "image": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/pikachu.png",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "name": "MewTwo",
+    "image": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/mewtwo.png"
+  },
+  {
+    "id": 3,
+    "name": "Mew",
+    "image": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/mew.png"
+  },
+  {
+    "id": 4,
+    "name": "Charizard",
+    "image": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/charizard.png"
+  },
+  {
+    "id": 5,
+    "name": "Wartortle",
+    "image": "https://img.pokemondb.net/sprites/diamond-pearl/shiny/wartortle.png"
+  },
+  {
+    "id": 6,
+    "name": "Bulbasaur",
+    "image": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/bulbasaur.png"
+  },
+  {
+    "id": 7,
+    "name": "Heracross",
+    "image": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/heracross.png"
+  },
+  {
+    "id": 8,
+    "name": "Greninja",
+    "image": "https://img.pokemondb.net/sprites/x-y/shiny/greninja.png"
+  },
+  {
+    "id": 9,
+    "name": "Blaziken",
+    "image": "https://img.pokemondb.net/sprites/black-white/normal/blaziken-f.png"
+  },
+  {
+    "id": 10,
+    "name": "Infernape",
+    "image": "https://img.pokemondb.net/sprites/x-y/shiny/infernape.png"
+  },
+  {
+    "id": 11,
+    "name": "Feraligatr",
+    "image": "https://img.pokemondb.net/sprites/black-white/normal/feraligatr.png"
+  },
+  {
+    "id": 12,
+    "name": "Zapdos",
+    "image": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/zapdos.png"
+  }
+]
