@@ -1,13 +1,9 @@
-.clicky {
-  height: 200px;
-  width: 200px;
-  background-size: cover;
-  background-position: 50%;
-  cursor: pointer;
-  border: 5px solid #fafafa;
-}
-
-.clicky:hover{
+.clicky:hover {
   transform: scale(1.05);
   border: none;
+}
+
+nav ul li {
+  margin-top: 4px;
+  margin-right: 40px;
 }
