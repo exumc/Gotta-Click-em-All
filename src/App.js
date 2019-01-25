@@ -18,8 +18,7 @@ class App extends Component {
     shake: false,
   };
 
-
-
+  // updating the score and filtering out the clicked item
   updateScore = id => {
     const filtered = this.state.pokemon.filter(data => data.id === id)
 
@@ -39,15 +38,18 @@ class App extends Component {
 
   }
 
+  // checking the topscore against the current score and updating accordingly
   updateTopScore = score => {
     this.state.topscore < score ? this.setState({ topscore: score }) : this.setState({ topscore: this.state.topscore })
 
   }
 
+  // animating the card shake
   shakePicture() {
     this.setState({ shake: !this.state.shake });
   }
 
+  // creating a new game. reseting the state of the score and the pokemon array
   newGame() {
     let pokemon = this.state.pokemon.map(data => {
       data.clicked = false;
@@ -63,6 +65,7 @@ class App extends Component {
     this.shakePicture();
   }
 
+  // looping through the pokemon array in a temporary array to randomly place them within the array
   randomizeBoard = () => {
     let sourceArray = this.state.pokemon
     for (let i = 0; i < sourceArray.length - 1; i++) {
