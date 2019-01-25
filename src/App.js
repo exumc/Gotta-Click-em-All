@@ -25,7 +25,7 @@ class App extends Component {
     if (filtered.length > 0) {
       if (filtered[0].clicked) {
         this.shakePicture();
-        // alert("Try again! You gotta Catch 'Em All!");
+        alert("Try again! You gotta Catch 'Em All!");
         this.updateTopScore(this.state.score);
         this.newGame();
       } else {
