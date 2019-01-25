@@ -6,7 +6,7 @@ function GameCard(props) {
   
 
 <div className="col s4 ">
-  <div className="clicky white center valign-wrapper" onClick={() => props.removeCard(props.id)}>
+  <div className={"clicky white center valign-wrapper " + (props.shake ? "shake" : "") } onClick={() => props.removeCard(props.id)}>
   
       <img src={props.image} alt={props.name} class="responsive-img myImg"/>
     
