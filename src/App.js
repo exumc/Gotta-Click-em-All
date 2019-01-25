@@ -16,8 +16,9 @@ class App extends Component {
     score: 0,
     topscore: 0,
     shake: false,
-    gameover: ""
   };
+
+
 
   updateScore = id => {
     const filtered = this.state.pokemon.filter(data => data.id === id)
@@ -25,7 +26,7 @@ class App extends Component {
     if (filtered.length > 0) {
       if (filtered[0].clicked) {
         this.shakePicture();
-        this.setState({ gameover: "Game Over Man!" });
+        alert("Try again! You gotta Catch 'Em All!");
         this.updateTopScore(this.state.score);
         this.newGame();
       } else {
@@ -34,10 +35,13 @@ class App extends Component {
         this.randomizeBoard();
       }
     }
+
+
   }
 
   updateTopScore = score => {
     this.state.topscore < score ? this.setState({ topscore: score }) : this.setState({ topscore: this.state.topscore })
+
   }
 
   shakePicture() {
@@ -53,14 +57,13 @@ class App extends Component {
     this.setState({
       score: 0,
       pokemon,
-      gameover: ""
     })
 
     this.randomizeBoard();
     this.shakePicture();
   }
 
-  randomizeBoard = (id) => {
+  randomizeBoard = () => {
     let sourceArray = this.state.pokemon
     for (let i = 0; i < sourceArray.length - 1; i++) {
       let j = i + Math.floor(Math.random() * (sourceArray.length - i));
@@ -72,6 +75,10 @@ class App extends Component {
   }
 
   render() {
+    if (this.state.score > 11) {
+      alert("Congratulations you have won! Now go do something better with your time.")
+    }
+
     return (
       <Wrapper background="https://cdn.vox-cdn.com/uploads/chorus_asset/file/11680589/Map_Art.png">
         <Header>
