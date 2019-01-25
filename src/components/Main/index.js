@@ -1,12 +1,13 @@
 import React from "react";
 import "./style.css";
 
-function Container(props) {
+function Main(props) {
+
   return (
-    <div className="container main">
+    <main className="container main">
       <div className="row">{props.children}</div>
-    </div>
+    </main>
   );
 }
 
-export default Container;
+export default Main;

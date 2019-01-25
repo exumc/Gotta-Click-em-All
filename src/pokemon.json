@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Pikachu",
-    "image": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/pikachu.png",
+    "image": "https://img.pokemondb.net/sprites/x-y/shiny/pikachu-f.png",
     "clicked": false
   },
   {
@@ -12,13 +12,13 @@
   },
   {
     "id": 3,
-    "name": "Mew",
-    "image": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/mew.png"
+    "name": "Moltres",
+    "image": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/moltres.png"
   },
   {
     "id": 4,
     "name": "Charizard",
-    "image": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/charizard.png"
+    "image": "https://img.pokemondb.net/sprites/x-y/shiny/charizard.png"
   },
   {
     "id": 5,
@@ -32,32 +32,32 @@
   },
   {
     "id": 7,
-    "name": "Heracross",
-    "image": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/heracross.png"
+    "name": "Gengar",
+    "image": "https://img.pokemondb.net/sprites/black-white/normal/gengar.png"
   },
   {
     "id": 8,
-    "name": "Greninja",
-    "image": "https://img.pokemondb.net/sprites/x-y/shiny/greninja.png"
+    "name": "Alakazam",
+    "image": "https://img.pokemondb.net/sprites/x-y/shiny/alakazam-f.png"
   },
   {
     "id": 9,
-    "name": "Blaziken",
-    "image": "https://img.pokemondb.net/sprites/black-white/normal/blaziken-f.png"
+    "name": "Kangaskhan",
+    "image": "https://img.pokemondb.net/sprites/black-white/normal/kangaskhan.png"
   },
   {
     "id": 10,
-    "name": "Infernape",
-    "image": "https://img.pokemondb.net/sprites/x-y/shiny/infernape.png"
+    "name": "Eevee",
+    "image": "https://img.pokemondb.net/sprites/x-y/shiny/eevee.png"
   },
   {
     "id": 11,
-    "name": "Feraligatr",
-    "image": "https://img.pokemondb.net/sprites/black-white/normal/feraligatr.png"
+    "name": "Articuno",
+    "image": "https://img.pokemondb.net/sprites/black-white/shiny/articuno.png"
   },
   {
     "id": 12,
     "name": "Zapdos",
-    "image": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/zapdos.png"
+    "image": "https://img.pokemondb.net/sprites/diamond-pearl/shiny/zapdos.png"
   }
 ]
