@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Gotta-Click-em-All/precache-manifest.14330f786616fec056d82f87b65b78b9.js"
+  "/Gotta-Click-em-All/precache-manifest.60410dfb2eecafd14316eb188b234734.js"
 );
 
 workbox.clientsClaim();
