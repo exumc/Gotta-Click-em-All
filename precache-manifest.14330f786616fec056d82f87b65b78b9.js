@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/Gotta-Click-em-All/static/js/runtime~main.155dd137.js"
   },
   {
-    "revision": "10ab2c041e5deab74751",
-    "url": "/Gotta-Click-em-All/static/js/main.10ab2c04.chunk.js"
+    "revision": "d2dbba8dbca5b70b26d0",
+    "url": "/Gotta-Click-em-All/static/js/main.d2dbba8d.chunk.js"
   },
   {
     "revision": "fa92c112869d3657d47b",
     "url": "/Gotta-Click-em-All/static/js/1.fa92c112.chunk.js"
   },
   {
-    "revision": "10ab2c041e5deab74751",
+    "revision": "d2dbba8dbca5b70b26d0",
     "url": "/Gotta-Click-em-All/static/css/main.72ccc65f.chunk.css"
   },
   {
-    "revision": "a509096f442c6657789b92522465cc73",
+    "revision": "b3f4dd9c776bf7dbc22f379d0cf0ce82",
     "url": "/Gotta-Click-em-All/index.html"
   }
 ];
